@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta charset="gb2312"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grade</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <main>
+        <h1>Data Structures<br>
+	<h1>2024 Fall<br>
+	Grade Checking</h1>
+	<hr color="blue" />
+	Please enter your student ID number (SID) followed by the score of midterm exam. For example, if the student ID is 107590040 and the score of midterm exam is 68, please enter 10759004068。<br>
+        <label for="sid-mid">SID+Midterm_Sore:</label> 
+        <input type="text" name="sid-mid" id="sid-mid" value="">
+        <button onclick="display()">display</button>
+	<hr color="blue" />
+        <p id="display-grade"></p>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
